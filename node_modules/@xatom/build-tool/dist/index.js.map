@@ -1,0 +1,1 @@
+{"mappings":";;;;;AAAA;AACA,QAAQ,GAAG,CAAC,CAAA,GAAA,qCAAG,EAAE,OAAO,CAAC","sources":["src/index.ts"],"sourcesContent":["import path from \"path\";\nconsole.log(path.resolve(\"./\"));\n"],"names":[],"version":3,"file":"index.js.map","sourceRoot":"../"}
