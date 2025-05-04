@@ -234,7 +234,7 @@ nominatimConfigurator.beforeRequest((config, nextFn) => {
 const nominatimClient = new AxiosClient(nominatimConfigurator);
 
 // Main function to initialize the multi-step form
-function initMultiStepForm() {
+export function initMultiStepForm() {
   const head = document.head;
   const link = document.createElement("link");
   link.rel = "stylesheet";
@@ -1829,6 +1829,3 @@ function renderThankYou(
   `);
   mainContainer.appendChild(rating);
 }
-
-// Initialize the form when the script loads
-initMultiStepForm();
