@@ -220,7 +220,8 @@ const FONT_AWESOME_CDN_URL =
 
 // --- Axios Client for Nominatim ---
 const NOMINATIM_BASE_URL = "https://nominatim.openstreetmap.org";
-const YOUR_APP_USER_AGENT = "SolarSydneyCalculator/1.0 (YOUR_WEBSITE.COM)"; // *** REPLACE WITH YOUR ACTUAL INFO ***
+const YOUR_APP_USER_AGENT =
+  "SolarSydneyCalculator/1.0 (https://aussolarsystems.webflow.io)"; // *** REPLACE WITH YOUR ACTUAL INFO ***
 
 const nominatimConfigurator = new AxiosClientConfigurator(NOMINATIM_BASE_URL);
 

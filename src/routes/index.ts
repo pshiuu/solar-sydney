@@ -6,7 +6,7 @@ export const initRoutes = () => {
   new WFRoute("/").execute(() => {
     initHome();
   });
-  new WFRoute("/get-solar-quotes").execute(() => {
+  new WFRoute("/solar-quotes").execute(() => {
     initQuote();
   });
 };

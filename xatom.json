@@ -1,5 +1,5 @@
 {
-  "webflowSubdomain": "solar-sydney",
+  "webflowSubdomain": "aussolarsystems",
   "port": 3020,
   "source": "./src/app.ts",
   "dist": "./dist",
