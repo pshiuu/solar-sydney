@@ -11,7 +11,8 @@
   "dependencies": {
     "@xatom/axios": "^1.0.4",
     "@xatom/build-tool": "1.0.5",
-    "@xatom/core": "1.0.12"
+    "@xatom/core": "1.0.12",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "buffer": "^6.0.3"
